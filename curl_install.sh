@@ -11,19 +11,19 @@ echo "Detected OS: $OS_TYPE"
 case $OS_TYPE in
     "debian" | "ubuntu")
         echo "Installing curl using apt..."
-        
+	sudo apt update && sudo apt install -y curl        
         ;;
     "rhel" | "almalinux" | "centos")
         echo "Installing curl using ..."
-
+	sudo dnf install -y curl
         ;;
     "alpine")
-        echo "Installing curl using ..."
-
+	echo "Installing curl using ..."
+	sudo apk add curl
         ;;
-    *) # error message (unknown os distribution handling)
+    *) 		# error message (unknown os distribution handling)
         echo "Distribution not identified" >&2
-        exit
+        exit 1   # non-zero exit code for failure state
         ;;
 esac
 
