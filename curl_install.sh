@@ -1,3 +1,5 @@
+# Assignment - 1
+
 #!/bin/bash
 
 # grep -w used to get line with the word ID from /etc/os-release (ID="ubuntu")

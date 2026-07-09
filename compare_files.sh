@@ -1,3 +1,6 @@
+
+# Assignment - 2 - Script - 3
+
 #!/bin/bash
 
 

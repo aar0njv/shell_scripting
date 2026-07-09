@@ -1,3 +1,6 @@
+
+# Assignment - 2 - Script - 2
+
 #!/bin/bash
 
 if [ $# -ne 1 ]; then
