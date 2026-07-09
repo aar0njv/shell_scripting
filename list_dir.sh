@@ -1,4 +1,8 @@
 
+# Assignment - 2 - Script - 1
+
+
+
 #!/bin/bash
 
 # ensure only one arguement is passed, 

@@ -1,3 +1,6 @@
+
+# Assignment - 3 - Script - 3
+
 #!/bin/bash
 
 PARTITION="/"
